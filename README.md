@@ -27,8 +27,8 @@
 | 量化 | 4-bit (load_in_4bit=True) |
 
 ## 5. 训练结果
-- **最终 loss**：0.32（附 loss 曲线截图，可在 Colab 中截图或从 logs 提取）
-- **可训练参数量**：18.46M / 1.56B（约 1.18%）
+- **最终 loss**：<img width="1200" height="750" alt="loss_curve" src="https://github.com/user-attachments/assets/e999e05b-bbfc-4571-bbe7-fa3a0a64f0e9" />
+最终 loss = 0.0975
 
 ## 6. 微调前后对比（5 个测试问题）
 | 问题 | 微调前回答 | 微调后回答 |
